@@ -1,0 +1,4 @@
+#ignore build files
+bld
+SMP.pro.user
+Makefile*
