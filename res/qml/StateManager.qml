@@ -16,7 +16,7 @@ StateMachine {
 
         onEntered: {
             console.log("init entered")
-            mainLoader.setSource("MainLayout.qml")
+            mainLoader.setSource("mainlayout.qml")
         }
 
         onExited: {

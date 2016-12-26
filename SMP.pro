@@ -2,7 +2,7 @@
 
 TEMPLATE = app
 
-QT += qml quick quick-private core-private qml-private gui-private
+QT += qml quick quick-private core-private qml-private gui-private multimedia
 
 PROJECT_ROOT_DIR = ./
 
@@ -13,10 +13,12 @@ DESTDIR     = $${BUILD_DIR}/bin
 RCC_DIR     = $${BUILD_DIR}/rcc
 
 SOURCES += \
-    $$PWD/src/*.cpp
+    $$PWD/src/*.cpp \
+    $$PWD/src/audio/*.cpp
 
 HEADERS += \
-    $$PWD/src/*.h
+    $$PWD/src/*.h \
+    $$PWD/src/audio/*.h
 
 QML_FILES = \
     $$PWD/res/qml/*.qml \
