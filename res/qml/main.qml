@@ -1,13 +1,25 @@
 import QtQuick 2.4
-import QtQuick.Controls 1.3
 
 FocusScope {
     id: main
     focus: true
+    width: 640
+    height: 480
 
-    Rectangle{
-        height: 100
-        width: 100
-        color: "red"
+    Context {
+        id: context
+    }
+
+    Signals {
+        id: signals
+    }
+
+    StateManager {
+        id: mainStateManager
+    }
+
+    Loader {
+        id: mainLoader
+        anchors.fill: parent
     }
 }

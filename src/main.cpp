@@ -8,8 +8,8 @@ int main(int argc, char *argv[])
     QQuickView view;
 
     //for transparency
-    QQuickWindow::setDefaultAlphaBuffer(true);
-    view.setColor(Qt::transparent);
+//    QQuickWindow::setDefaultAlphaBuffer(true);
+//    view.setColor(Qt::transparent);
     //------------
 
     view.setSource(QUrl(QStringLiteral("res/qml/main.qml")));

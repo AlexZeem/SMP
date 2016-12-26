@@ -19,7 +19,9 @@ HEADERS += \
     $$PWD/src/*.h
 
 QML_FILES = \
-    $$PWD/res/qml/*.qml
+    $$PWD/res/qml/*.qml \
+    $$PWD/res/qml/dialogs/*.qml \
+    $$PWD/res/qml/musicplayer/*.qml
 
 JS_FILES = \
    $$PWD/res/helpers/*.js
